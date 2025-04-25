@@ -22,3 +22,13 @@ git-contribution-visualizer -email "email@gmail.com"
 > Git Repo need head information of commits
 
 `~/.gogitlocalstats`
+
+## Build App
+
+```bash
+go build
+
+# run app
+./git-contribution-visualizer -add /path/to/folders
+./git-contribution-visualizer -email "email@gmail.com"
+```
